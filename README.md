@@ -1,7 +1,6 @@
-# WT Private - Argon-style Showcase
+# WT Private - MUI
 
-Showcase de uma dashboard inspirada no Argon Dashboard Pro React
-(stack atual: Material UI), com paleta neutra e componentes comuns de admin.
+Showcase de uma página com Material UI, com paleta neutra e componentes comuns de admin.
 
 ## Stack
 
