@@ -14,7 +14,7 @@ dayjs.locale('pt-br');
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/MUI">
       <ThemeProvider theme={appTheme}>
         <CssBaseline />
         <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="pt-br">
