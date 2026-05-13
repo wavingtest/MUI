@@ -1,4 +1,4 @@
-# WT Private - MUI
+# WT Private - MUI UI
 
 Showcase de uma página com Material UI, com paleta neutra e componentes comuns de admin.
 
