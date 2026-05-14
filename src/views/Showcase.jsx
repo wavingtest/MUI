@@ -60,6 +60,7 @@ import dayjs from 'dayjs';
 
 import StatCard from '../components/StatCard';
 import DataTable from '../components/DataTable';
+import LgContainerFormBlock from '../components/LgContainerFormBlock';
 import { STAT_CARDS, ORDERS, TRAFFIC_SOURCES, ACTIVITY_FEED } from '../data/mockData';
 import RecordsPage from './RecordsPage';
 import RegionsPage from './RegionsPage';
@@ -372,6 +373,16 @@ export default function Showcase() {
           </Button>
         </Stack>
       </Stack>
+
+      <Card sx={{ mb: 3 }}>
+        <CardHeader
+          title="Container lg + formulário"
+          subheader="Mesma estrutura da inspeção: Box → Container maxWidth lg → cabeçalho flex → dois TextFields → rodapé flex"
+        />
+        <CardContent sx={{ pt: 0 }}>
+          <LgContainerFormBlock />
+        </CardContent>
+      </Card>
 
       <Card sx={{ mb: 3 }}>
         <CardContent>
