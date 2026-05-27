@@ -9,9 +9,21 @@ Showcase de uma página com Material UI, com paleta neutra e componentes comuns 
 - `@mui/x-date-pickers` + `dayjs`
 - Tema custom em `src/theme.js` (look and feel neutro)
 
+## Biblioteca MUI (estilo shadcn)
+
+Na rota `/components`, a **Biblioteca MUI** lista componentes em blocos `[WT]` tracejados, com prioridade por cor: **amarelo** (alta), **azul** (média), **cinza** (baixa). Catálogo em `src/data/muiComponentCatalog.js`.
+
+**Alta prioridade (borda amarela, 26 demos):** Button, TextField, Alert, Dialog, Alert Dialog, Snackbar, Switch, RadioGroup, Checkbox, Select, Chip, Tabs, Tooltip, Menu, Accordion, Collapse, Avatar, Slider, ToggleButtonGroup, Progress, Pagination, Scroll Area, Aspect Ratio, Input OTP, IconButton, Card.
+
+**Média prioridade (borda azul, 15 demos):** Autocomplete, Table, Breadcrumbs, Stepper, Drawer, AppBar, List, Badge, Skeleton, CircularProgress, Backdrop, DatePicker, Popover, Fab, Rating.
+
+**Baixa prioridade (borda cinza):** ainda planejados (DataGrid, TreeView, etc.).
+
+Arquivos principais: `src/views/MuiComponentsCatalog.jsx`, `src/components/showcase/MuiPhase1Demos.jsx`, `src/components/showcase/WtShowcaseSection.jsx`.
+
 ## Componentes da pagina
 
-Componentes presentes na pagina principal (`/components`):
+Componentes presentes na pagina principal (`/components`) — demos compostos do dashboard:
 
 - `Sidebar` (drawer lateral com busca por pagina, menu hierarquico com `Collapse` e links)
 - `AdminNavbar` (topbar principal com titulo `WT Private`, timer de sessao, acoes e menu de usuario)

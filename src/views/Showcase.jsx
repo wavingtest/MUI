@@ -61,6 +61,7 @@ import dayjs from 'dayjs';
 import StatCard from '../components/StatCard';
 import DataTable from '../components/DataTable';
 import LgContainerFormBlock from '../components/LgContainerFormBlock';
+import MuiComponentsCatalog from './MuiComponentsCatalog';
 import { STAT_CARDS, ORDERS, TRAFFIC_SOURCES, ACTIVITY_FEED } from '../data/mockData';
 import RecordsPage from './RecordsPage';
 import RegionsPage from './RegionsPage';
@@ -359,10 +360,10 @@ export default function Showcase() {
       >
         <Box>
           <Typography variant="h4" fontWeight={700}>
-            Visão geral
+            Demos do dashboard
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Showcase de componentes com Material UI e paleta neutra.
+            Gráficos, tabelas e fluxos compostos (além da biblioteca MUI acima).
           </Typography>
         </Box>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} alignItems={{ sm: 'flex-end' }}>
@@ -930,6 +931,9 @@ export default function Showcase() {
           </Stack>
         </CardContent>
       </Card>
+
+      <Divider sx={{ my: 4 }} />
+      <MuiComponentsCatalog />
 
       <Dialog open={modalOpen} onClose={() => setModalOpen(false)} maxWidth="sm" fullWidth>
         <Box component="form" onSubmit={handleCreateOrder}>
